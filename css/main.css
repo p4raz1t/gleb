@@ -1,0 +1,131 @@
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+main {  
+    background-color: rgb(35 165 215);
+    border-style:dotted;
+    margin:20pt;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 5pt;
+}
+section{
+    padding: 10pt;
+}
+h3 {
+    font-size: larger;
+}
+img {
+    border-radius:50%;
+    height:190pt;
+    width: 210pt;
+    margin: 10pt;
+    align-self: center;
+}
+.module h3{
+    text-align: center;
+}
+
+.module {
+    background-color: rgb(54, 133, 73);
+    
+    border-radius: 10px;
+    width: 600px;
+    min-height: 300px;
+
+    border-style: dotted;
+    margin:10pt;
+    padding: 10pt;
+    display: flex;
+    flex-direction: column;
+}
+.module img {
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+}
+.module_container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.vkr{
+    margin: 10pt;
+    border-radius: 10px;
+    border-style: dotted;
+    background-color: rgba(54, 133, 73);
+}
+@media (max-width : 1750px) {
+    .module{
+        border-radius: 10px;
+        min-width: 500px;
+        min-height: 400px;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width : 1200px) {
+    .module{
+        border-radius: 10px;
+        min-width: 500px;
+        min-height: 400px;
+        flex-basis: 80%;
+        font-size: larger;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width : 900px) {
+    .module{
+        border-radius: 10px;
+        min-width: 350px;
+        min-height: 400px;
+        flex-basis: 90%;
+        font-size: larger;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width : 600px) {
+    header{
+        text-align: center;
+    }
+    .module{
+        border-radius: 10px;
+        min-width: 240px;
+        min-height: 400px;
+        flex-basis: 90%;
+        font-size: larger;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+    .vkr{
+        font-size: larger;
+    }
+    img {
+        border-radius:50%;
+        height:70pt;
+        width: 75pt;
+        margin: 5pt;
+        align-self: center;
+    }
+    main{
+        border-style:dotted;
+        margin:0pt;
+    }
+}
+ 
